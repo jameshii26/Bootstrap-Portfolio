@@ -7,40 +7,51 @@
 
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-
+    <link rel="stylesheet" href="/css/style.css">
+    <!--  Add font awesome script -->
+    <script src="https://kit.fontawesome.com/a81456afc7.js" crossorigin="anonymous"></script>
     <title>Bootstrap-Portfolio</title>
   </head>
   <body>
     <!-- Navigation -->
-    <nav class="navbar-dark bg-dark">
-      <h1 class="">My Portfolio</h1>
-      <ul class="nav justify-content-end">
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+      <a class="navbar-brand" href="#">My Portfolio</a>
+      <div class="container"></div>
+      <ul class="navbar-nav">
         <li class="nav-item">
-          <a class="nav-link" href="#">Welcome</a>
+          <a class="nav-link" href="#welcome">Welcome</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#">Work</a>
+          <a class="nav-link" href="#work">Work</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#">About</a>
+          <a class="nav-link" href="#about">About</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#">Contact</a>
+          <a class="nav-link" href="#contact">Contact</a>
         </li>
       </ul>
     </nav>
+<!-- Welcome -->
+<header id="welcome" class="jumbotron jumbotron-fluid bg-secondary">
+  <div class="container">
+    <div class="col-lg-11 mx-auto text-white">
+      <h1 class="display-4">Welcome to My Portfolio</h1>
+        <p class="lead">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam vel sapien rhoncus, posuere turpis at, consequat elit. Praesent eu semper diam, eget ullamcorper leo. Vivamus iaculis ante lectus, ut dictum mi aliquet ut. Nam pulvinar tellus vel orci dignissim vulputate. Nunc et dolor et est congue consequat nec sit amet quam. Phasellus eu nisi vitae lacus eleifend facilisis ac ut magna. Sed quis dolor sed orci consequat elementum sit amet ac risus. Etiam sit amet interdum nibh, sed venenatis ipsum. Fusce bibendum risus et iaculis hendrerit. Mauris eu egestas urna, non sagittis odio. Duis quis magna metus. Vestibulum aliquet nibh ipsum, vitae vehicula libero auctor id. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Duis rutrum, tellus eu finibus venenatis, mi arcu condimentum nulla, congue ultricies magna nibh et neque. Nunc eu magna eros. Mauris efficitur tincidunt arcu vitae venenatis.</p>
+        <a class="btn btn-primary btn-lg" href="#" role="button">Call to action!</a>
+    </div>
+  </div>
+</header>
 
-<div class="jumbotron container">
-    <h1 class="display-4">Welcome to My Portfolio</h1>
-    <p class="lead">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam vel sapien rhoncus, posuere turpis at, consequat elit. Praesent eu semper diam, eget ullamcorper leo. Vivamus iaculis ante lectus, ut dictum mi aliquet ut. Nam pulvinar tellus vel orci dignissim vulputate. Nunc et dolor et est congue consequat nec sit amet quam. Phasellus eu nisi vitae lacus eleifend facilisis ac ut magna. Sed quis dolor sed orci consequat elementum sit amet ac risus. Etiam sit amet interdum nibh, sed venenatis ipsum. Fusce bibendum risus et iaculis hendrerit. Mauris eu egestas urna, non sagittis odio. Duis quis magna metus. Vestibulum aliquet nibh ipsum, vitae vehicula libero auctor id. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Duis rutrum, tellus eu finibus venenatis, mi arcu condimentum nulla, congue ultricies magna nibh et neque. Nunc eu magna eros. Mauris efficitur tincidunt arcu vitae venenatis.</p>
-    <hr class="my-4">
-    <a class="btn btn-primary btn-lg" href="#" role="button">Call to action!</a>
-</div>
-<h1 class="">My Work</h1>
-<!-- Cards -->
-<div class="row">
-    <div class="col-sm-12 col-md-4 col-lg-4">
+<!-- Work -->
+<section id="work" class="container">
+  <div class="row d-flex justify-content-around">
+    <h1 class="my-4">My Work</h1>
+  </div>
+  <div class="row">
+    <div class="col-sm-12 col-md-6 col-lg-6">
       <div class="card">
+        <img src="https://placehold.co/500x325">
         <div class="card-body">
           <h5 class="card-title">Project 1</h5>
           <p class="card-text">Cupcake ipsum dolor sit amet brownie icing. Topping apple pie muffin toffee halvah jujubes pastry caramels. Powder sweet roll I love sesame snaps candy.</p>
@@ -48,38 +59,90 @@
         </div>
       </div>
     </div>
-    <div class="col-sm-12 col-md-4 col-lg-4">
+    <div class="col-sm-12 col-md-6 col-lg-6">
       <div class="card">
+        <img src="https://placehold.co/500x325">
         <div class="card-body">
           <h5 class="card-title">Project 2</h5>
-          <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+          <p class="card-text">Cupcake ipsum dolor sit amet brownie icing. Topping apple pie muffin toffee halvah jujubes pastry caramels. Powder sweet roll I love sesame snaps candy.</p>
           <a href="#" class="btn btn-primary">Find Out More!</a>
         </div>
       </div>
     </div>
-</div>  
-<div class="row">
-    <div class="col-sm-12 col-md-4 col-lg-4">
+  </div>
+  <div class="row">
+    <div class="col-sm-12 col-md-6 col-lg-6">
       <div class="card">
+        <img src="https://placehold.co/500x325">
         <div class="card-body">
           <h5 class="card-title">Project 3</h5>
-          <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+          <p class="card-text">Cupcake ipsum dolor sit amet brownie icing. Topping apple pie muffin toffee halvah jujubes pastry caramels. Powder sweet roll I love sesame snaps candy.</p>
           <a href="#" class="btn btn-primary">Find Out More!</a>
         </div>
       </div>
     </div>
-    <div class="col-sm-12 col-md-4 col-lg-4">
+    <div class="col-sm-12 col-md-6 col-lg-6">
       <div class="card">
+        <img src="https://placehold.co/500x325">
         <div class="card-body">
           <h5 class="card-title">Project 4</h5>
-          <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+          <p class="card-text">Cupcake ipsum dolor sit amet brownie icing. Topping apple pie muffin toffee halvah jujubes pastry caramels. Powder sweet roll I love sesame snaps candy.</p>
           <a href="#" class="btn btn-primary">Find Out More!</a>
         </div>
       </div>
     </div>
-</div>  
-      <!-- End card 1 -->
-     
+  </div>
+</section>
+    <!-- About Me -->
+<section id="about">
+  <div class="container bg-secondary">
+    <div class="row align-items-center">
+      <div class="col-lg-6 order-lg-6">
+        <img class="img-fluid rounded-circle" src="https://placehold.co/500x500">
+      </div>
+    
+      <div class="col-lg-6 order-lg-2 text-white">
+        
+          <h1>About Me!</h1>
+          <p>Cupcake ipsum dolor sit amet brownie icing. Topping apple pie muffin toffee halvah jujubes pastry caramels. Powder sweet roll I love sesame snaps candy.
+            I love dessert sweet lemon drops I love. Pie marzipan I love soufflé pudding tiramisu croissant. Cotton candy croissant dragée macaroon chocolate bar jelly-o.
+            I love I love I love bear claw I love gingerbread donut jujubes. Gummi bears pie chocolate cake I love marshmallow macaroon I love. Cheesecake jujubes powder cake muffin danish dessert I love. Macaroon chocolate bar sweet roll chocolate cake ice cream pie.
+            Chocolate cake I love liquorice fruitcake oat cake. Pastry muffin toffee dragée cheesecake danish pastry chocolate. Dragée cookie I love brownie I love muffin dessert carrot cake.
+            Pastry I love chupa chups candy jelly cookie caramels. Pudding bonbon sweet roll oat cake pastry croissant. Topping cake croissant macaroon caramels fruitcake macaroon jelly-o cupcake.</p>
+          <a href="#" class="btn btn-outline-light">
+            <i class="fa-solid fa-download"></i>Download my Resume</a>
+        
+      </div>
+    </div>
+  </div>
+</section>
+<!-- Contact -->
+<footer id="contact">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-6 mx-auto">
+        <ul>
+          <li class="list-inline-item mr-3">
+            <a href="#">
+              <i class="fab fa-linkedin fa-3x fa-fw"></i>
+            </a>
+          </li>
+          <li class="list-inline-item mr-3">
+            <a href="#">
+              <i class="fab fa-twitter-square fa-3x fa-fw"></i>
+            </a>
+          </li>
+          <li class="list-inline-item mr-3">
+            <a href="#">
+              <i class="fab fa-github fa-3x fa-fw"></i>
+            </a>
+          </li>
+        </ul>
+        <p>&copy; Your website 2022. Coded by yours truly!</p>
+      </div>
+    </div>
+  </div>
+</footer>
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
