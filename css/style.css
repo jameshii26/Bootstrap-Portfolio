@@ -1,4 +1,16 @@
 h1 {
-    font-family:Arial, Helvetica, sans-serif;
+    font-family: sans-serif;
     font-size: 5rem;
+}
+
+.flex-lg-row {
+    margin-left: auto;
+}
+
+nav a {
+    font-family: cursive;
+}
+
+.card {
+    border-color: coral;
 }
